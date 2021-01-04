@@ -1,0 +1,23 @@
+body {
+  font-family: Poppins, serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 3.125rem;
+  line-height: 1.4;
+}
+.special-naming {
+  color: orange;
+}
+.half-width {
+  display: inline-block;
+  width: 40%;
+  /* float: left; */
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
