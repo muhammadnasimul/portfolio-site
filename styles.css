@@ -9,7 +9,11 @@ h1 {
   font-size: 3.125rem;
   line-height: 1.4;
 }
-.special-naming {
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.special-colorising {
   color: orange;
 }
 .half-width {
@@ -70,4 +74,39 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
-/* boys relax pehle ek emergency lane bana lete hai  */
+#exp-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom-container {
+  height: 600px;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+
+.boxes {
+  transition: 300ms;
+  box-shadow: 10px 10px 40px gray;
+  height: 60%;
+}
+
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+  border-image-slice: 1;
+}
+
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, rgba(0, 0, 255, 0.829), cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+}
